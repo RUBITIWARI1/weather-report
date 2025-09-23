@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 });
 
 // Weather API configuration
-const WEATHER_API_KEY = 'your_api_key_here'; // Replace with your API key
+const WEATHER_API_KEY = 'WEATHER_API_KEY'; // Replace with your API key
 const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 // Colors for console output
@@ -111,7 +111,7 @@ ${colors.yellow}3. Replace 'your_api_key_here' in this script with your key${col
 
 // Check if API key is set
 function checkApiKey() {
-  if (WEATHER_API_KEY === 'your_api_key_here') {
+  if (WEATHER_API_KEY === 'WEATHER_API_KEY') {
     console.log(`${colors.red}⚠️  Warning: Please set your OpenWeatherMap API key!${colors.reset}`);
     console.log(`${colors.yellow}Edit the WEATHER_API_KEY variable in index.js with your actual API key.${colors.reset}`);
     console.log('');

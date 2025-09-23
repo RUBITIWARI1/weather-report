@@ -100,7 +100,7 @@ app.listen(PORT, () => {
   console.log(`📱 Open your browser and visit the URL above to use the web interface`);
   console.log(`💻 For CLI version, run: npm run cli`);
   
-  if (WEATHER_API_KEY === 'your_api_key_here') {
+  if (WEATHER_API_KEY === 'WEATHER_API_KEY') {
     console.log(`⚠️  Warning: Please set your OpenWeatherMap API key in server.js`);
   }
 });
